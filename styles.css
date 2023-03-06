@@ -1,4 +1,12 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+html, body {
     background-color: hsl(212, 45%, 89%);
     width: auto;
     height: auto;
@@ -11,7 +19,7 @@ h3 {
 p {
     font-size: 0.9em;
     font-weight: 400;
-    padding-bottom: 2em;
+    padding: 1.5em;
 }
 
 h1 {
@@ -19,11 +27,19 @@ h1 {
 }
 
 img {
-    max-width: 100%;
-    width: 90%;
-    height: 90%;
-    padding: 1em;
+    width: 100%;
+    padding: 1.3em;
     border-radius: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    transform: translateY(42.5%);
 }
 
 .box {
@@ -31,11 +47,8 @@ img {
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
-    width: 18.5em;
-
-    display: block;
-    margin: auto;
-    padding: auto;
+    width: 20em;
+    max-width: 20em;
 }
 
 @media screen and (max-width: 375px) {
