@@ -7,7 +7,6 @@
 }
 
 html, body {
-    height: 100%;
     background-color: hsl(212, 45%, 89%);
 }
 
@@ -32,23 +31,13 @@ p {
 }
 
 .container {
-    height: 55em;
-    width: 90em;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    position: relative;
-
     margin: auto;
     padding: auto;
-}
-
-.center {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
 }
 
 .card {
