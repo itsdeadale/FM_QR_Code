@@ -7,6 +7,7 @@
 }
 
 html, body {
+    height: 100%;
     background-color: hsl(212, 45%, 89%);
 }
 
@@ -31,12 +32,14 @@ p {
 }
 
 .container {
+    height: 55em;
+    width: 90em;
     display: flex;
-    flex-direction: column;
-    -ms-flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    position: relative;
 
     margin: auto;
     padding: auto;
